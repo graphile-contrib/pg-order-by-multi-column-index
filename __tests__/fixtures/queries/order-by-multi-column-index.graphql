@@ -1,0 +1,23 @@
+query {
+  query01__allPeople__orderBy__LAST_NAME_ASC__FIRST_NAME_ASC: allPeople(orderBy: LAST_NAME_ASC__FIRST_NAME_ASC) {
+    nodes {
+      id
+      firstName
+      lastName
+    }
+  }
+  query02__allFoos__orderBy__COL_A_ASC__COL_B_DESC_NULLS_LAST: allFoos(orderBy: COL_A_ASC__COL_B_DESC_NULLS_LAST) {
+    nodes {
+      id
+      colA
+      colB
+    }
+  }
+  query03__allFoos__orderBy__COL_A_DESC__COL_B_ASC_NULLS_FIRST: allFoos(orderBy: COL_A_DESC__COL_B_ASC_NULLS_FIRST) {
+    nodes {
+      id
+      colA
+      colB
+    }
+  }
+}

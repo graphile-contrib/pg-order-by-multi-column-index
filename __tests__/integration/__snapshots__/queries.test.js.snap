@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`order-by-multi-column-index.graphql 1`] = `
+Object {
+  "data": Object {
+    "query01__allPeople__orderBy__LAST_NAME_ASC__FIRST_NAME_ASC": Object {
+      "nodes": Array [
+        Object {
+          "firstName": "Bob",
+          "id": 2,
+          "lastName": "Young",
+        },
+        Object {
+          "firstName": "Alice",
+          "id": 1,
+          "lastName": "Zimmerman",
+        },
+      ],
+    },
+    "query02__allFoos__orderBy__COL_A_ASC__COL_B_DESC_NULLS_LAST": Object {
+      "nodes": Array [
+        Object {
+          "colA": "A",
+          "colB": "Z",
+          "id": 1,
+        },
+        Object {
+          "colA": "A",
+          "colB": "Y",
+          "id": 2,
+        },
+        Object {
+          "colA": "B",
+          "colB": "X",
+          "id": 3,
+        },
+        Object {
+          "colA": "B",
+          "colB": null,
+          "id": 4,
+        },
+      ],
+    },
+    "query03__allFoos__orderBy__COL_A_DESC__COL_B_ASC_NULLS_FIRST": Object {
+      "nodes": Array [
+        Object {
+          "colA": "B",
+          "colB": null,
+          "id": 4,
+        },
+        Object {
+          "colA": "B",
+          "colB": "X",
+          "id": 3,
+        },
+        Object {
+          "colA": "A",
+          "colB": "Y",
+          "id": 2,
+        },
+        Object {
+          "colA": "A",
+          "colB": "Z",
+          "id": 1,
+        },
+      ],
+    },
+  },
+}
+`;
