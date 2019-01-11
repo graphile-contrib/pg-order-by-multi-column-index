@@ -2,7 +2,7 @@
 
 This Graphile Engine plugin adds enum values to the `orderBy` argument on connections, allowing you to order by multi-column indexes.
 
-> Requires `postgraphile@^4.1.0-rc.2` or `graphile-build-pg@^4.1.0-rc.2`
+> Requires `postgraphile@^4.1.0` or `graphile-build-pg@^4.1.0`
 
 > NOTE: If you're not using `ignoreIndexes: false`, then you probably don't need this plugin.
 
@@ -33,7 +33,7 @@ Append this plugin and the additional `orderBy` enum values will be added to you
 ### CLI
 
 ```bash
-yarn add postgraphile@^4.1.0-rc.2
+yarn add postgraphile
 yarn add @graphile-contrib/pg-order-by-multi-column-index
 npx postgraphile --append-plugins @graphile-contrib/pg-order-by-multi-column-index
 ```
