@@ -1,5 +1,7 @@
 # @graphile-contrib/pg-order-by-multi-column-index
 
+[![Package on npm](https://img.shields.io/npm/v/@graphile-contrib/pg-order-by-multi-column-index.svg)](https://www.npmjs.com/package/@graphile-contrib/pg-order-by-multi-column-index) [![CircleCI](https://circleci.com/gh/graphile-contrib/pg-order-by-multi-column-index.svg?style=svg)](https://circleci.com/gh/graphile-contrib/pg-order-by-multi-column-index)
+
 This Graphile Engine plugin adds enum values to the `orderBy` argument on connections, allowing you to order by multi-column indexes.
 
 > Requires `postgraphile@^4.1.0` or `graphile-build-pg@^4.1.0`
