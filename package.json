@@ -4,7 +4,7 @@
   "description": "Order by multi-column indexes on PostGraphile connections",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint index.js",
+    "lint": "eslint **/*.js",
     "test": "scripts/test"
   },
   "repository": {
