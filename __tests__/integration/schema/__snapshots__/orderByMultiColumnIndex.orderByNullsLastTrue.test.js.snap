@@ -40,7 +40,7 @@ type FoosConnection {
   pageInfo: PageInfo!
 
   \\"\\"\\"The count of *all* \`Foo\` you could get from the connection.\\"\\"\\"
-  totalCount: Int
+  totalCount: Int!
 }
 
 \\"\\"\\"A \`Foo\` edge in the connection.\\"\\"\\"
@@ -102,7 +102,7 @@ type PeopleConnection {
   pageInfo: PageInfo!
 
   \\"\\"\\"The count of *all* \`Person\` you could get from the connection.\\"\\"\\"
-  totalCount: Int
+  totalCount: Int!
 }
 
 \\"\\"\\"A \`Person\` edge in the connection.\\"\\"\\"
