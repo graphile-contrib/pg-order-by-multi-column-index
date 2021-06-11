@@ -97,7 +97,7 @@ module.exports = function PgOrderByMultiColumnIndexPlugin(
             index.class.attributes.find(attr => attr.num === nr)
           );
 
-          if (attributes.length <= 1) {
+          if (attributes.length <= 1 || attributes.includes(undefined)) {
             // Not a multi-column index
             return memo;
           }
