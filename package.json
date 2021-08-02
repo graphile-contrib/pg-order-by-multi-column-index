@@ -1,6 +1,6 @@
 {
   "name": "@graphile-contrib/pg-order-by-multi-column-index",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0",
   "description": "Order by multi-column indexes on PostGraphile connections",
   "main": "index.js",
   "scripts": {
